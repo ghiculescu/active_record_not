@@ -6,7 +6,6 @@ Gem::Specification.new do |s|
   s.version       = ActiveRecordNot::VERSION
   s.authors       = ["Alex Ghiculescu"]
   s.email         = ["alexghiculescu@gmail.com"]
-  s.homepage      = ""
   s.summary       = %q{Chain scopes with #not}
   s.description   = %q{Adds NOT logic to ActiveRecord}
   s.files         = Dir["{lib}/**/*.rb", "bin/*", "LICENSE", "*.md"]
