@@ -18,8 +18,9 @@ module ActiveRecordNot
 
     merged_not = last_left_constraint.nil? ? constrainted_not : last_left_constraint.and(constrainted_not)
 
-    left.where_values = [merged_not]
-    left
+    right = left.dup
+    right.where_values = [merged_not]
+    right
   end
 end
 
