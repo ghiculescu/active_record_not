@@ -2,6 +2,8 @@
 
 Adds #not to your ActiveRecord querying. This works similarly to #where, but inversed!
 
+Note that this is supported natively in Rails 4, with slightly different syntax: http://blog.remarkablelabs.com/2012/12/not-equal-support-for-active-record-queries-rails-4-countdown-to-2013
+
 ## Installation
 
 `gem install active_record_not`, or add active_record_not to your Gemfile and `bundle install`.
